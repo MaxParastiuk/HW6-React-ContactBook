@@ -22,18 +22,12 @@
 
 .table_phone__light {
 	margin: 0 auto;
-	border-top: 3px solid #f79361;
-	border-left: 3px solid #f79361;
-	border-right: 3px solid #f79361;
-	border-bottom: 3px solid #f79361;
+	border: 3px solid #f79361;
 }
 
 .table_phone__dark {
 	margin: 0 auto;
-	border-top: 3px solid #b0b025;
-	border-left: 3px solid #b0b025;
-	border-right: 3px solid #b0b025;
-	border-bottom: 3px solid #b0b025;
+	border: 3px solid #b0b025;
 }
 
 td,
@@ -44,6 +38,11 @@ th {
 	text-align: center;
 	font-size: 18px;
 }
+
+.table_head__dark {
+	color: #3f39c2;
+}
+
 .tr:nth-child(2n) {
 	background: #e5e5e5;
 }
@@ -74,6 +73,25 @@ th {
 
 .contact_form {
 	margin-bottom: 40px;
+}
+
+.input__light {
+	border: 3px solid #f79361;
+}
+
+.input__dark {
+	border: 3px solid #b0b025;
+}
+
+.btn_form__light {
+	background: #f79361;
+	box-shadow: 2px 2px 0 0 #a22800;
+	margin-left: 10px;
+}
+.btn_form__dark {
+	background: #c8bd29;
+	box-shadow: 2px 2px 0 0 #bd7f6b;
+	margin-left: 10px;
 }
 
 .addAndHide-btn__light {

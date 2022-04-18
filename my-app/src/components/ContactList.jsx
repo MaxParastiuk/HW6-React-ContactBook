@@ -41,7 +41,7 @@ export default function ConatactList() {
 				</header>
 				{!showForm ? (
 					<table className={"table_phone__" + theme}>
-						<thead>
+						<thead className={"table_head__" + theme}>
 							<tr>
 								<th>Имя</th>
 								<th>Фамилия</th>
